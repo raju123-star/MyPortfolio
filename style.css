@@ -1,0 +1,595 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*****Section*****/
+section {
+  padding: 10px 0;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'satisfy'cursive;
+}
+
+section .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+
+section .title::after {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+
+/*******NAVBAR******/
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  padding: 10px 0;
+  background: crimson;
+}
+
+.navbar-nav {
+  padding-left: 220px;
+}
+
+/*
+.navbar  a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}*/
+.navbar-nav {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+/*
+Font styles used here......
+
+font-family: 'Acme', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Domine', serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Merriweather', serif;
+font-family:  'Montserrat', serif;
+
+*/
+/* home section styling*/
+.home {
+  display: flex;
+  background: url("images/pexel.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'satisfy', sans-serif;
+  /*Ubuntu in place of satisfy*/
+}
+
+h5 {
+  font-family: 'Acme', sans-serif;
+}
+
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+.sub-title {
+  font-family: 'Domine', serif;
+}
+
+.home .max-width {
+  width: 100%;
+  display: flex;
+}
+
+.home .home-content .text-1 {
+  font-size: 30px;
+}
+
+.home .home-content .text-2 {
+  font-size: 53px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 38px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 500;
+}
+
+/**** about section styling****/
+#about {
+  background-color: #FEF9EF;
+}
+
+.about .title::after {
+  content: "who i am";
+}
+
+.textarea {
+  padding-left: 400px;
+  font-family: 'Merriweather', serif;
+  padding-right: 300px;
+}
+
+.pic {
+  padding-left: 540px;
+}
+
+.cv {
+  padding-left: 555px;
+}
+
+.total-1 {
+  padding-bottom: 40px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+/*********education*************/
+#education {
+  background-color: #FFEF78;
+}
+
+.edu {
+  height: 180px;
+  width: 200px;
+  margin-left: 75px;
+}
+
+.row {
+  padding-bottom: 40px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  filter: drop-shadow(8px 8px 8px #222);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/*******Skills Section*******/
+#skills {
+  background-color: #E2703A;
+}
+
+.card .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card .skills .skill-name {
+  margin: 20px;
+  padding: 15px;
+}
+
+.card .skill-name i {
+  font-size: 50px;
+}
+
+.total {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/***********projects**********/
+#projects {
+  background-color: #9DDFD3;
+}
+
+.pc {
+  height: 250px;
+  width: 400px;
+  margin-left: 180px;
+}
+
+.cc {
+  padding: 10px;
+  margin: 10px 200px;
+  
+}
+
+
+.carbtn {
+  font-size: 10px;
+  height: 26%;
+  top: 33%;
+  width: 86px;
+  background: black;
+}
+
+.carousel-indicators {
+  height: 2%;
+}
+
+/******contact****/
+.bottom {
+  background-color: #66BFBF;
+  text-align: center;
+  padding-top: 30px;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #000000;
+  margin: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.cont {
+  margin-left: 560px;
+  margin-bottom: 20px;
+}
+
+.column {
+  margin-left: 200px;
+}
+
+.get {
+  margin-left: 555px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.get-1 {
+  margin-left: 440px;
+  padding: 10px;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.last {
+  padding-right: 600px;
+  padding-top: 0px;
+}
+
+/***button styling***/
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 0px 0px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+/***********************MEDIA QUERY*****************************/
+/*********large screen**************/
+/*********mediun screen@1*************/
+@media screen and (max-width: 750px) {
+  .navbar-nav a {
+    padding-bottom: 1px
+  }
+
+  /*about*/
+  .textarea {
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .pic {
+    padding-left: 260px;
+  }
+
+  .cv {
+    padding-left: 260px;
+  }
+
+  /*skills */
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .edu {
+    margin-left: 155px;
+    margin-top: 20px;
+  }
+
+  .card .skills {
+    flex-direction: column;
+    padding-left: 90px;
+    margin-left: 0px;
+    font-size: 30px;
+  }
+
+  /* projects */
+  .total {
+    margin: 80px
+  }
+
+  .cc {
+    margin-left: 60px;
+    margin-right: 60px
+  }
+
+  .pc {
+    margin-left: 44px;
+    margin-bottom: 20px
+  }
+
+  .carbtn {
+    height: 14%;
+    top: 36%;
+    width: 66px;
+    background: black;
+  }
+
+  .carousel-indicators {
+    height: 3%;
+  }
+
+  /*contact me */
+  .get {
+    margin-left: 280px;
+  }
+
+  .get-1 {
+    margin-left: 160px
+  }
+
+  .column {
+    margin-left: 40px
+  }
+
+  .cont {
+    margin-left: 280px;
+  }
+}
+
+/*********mediun screen@2*************/
+/* Tablet and up */
+@media screen and (min-width: 768px) {
+
+  .carousel-inner .active,
+  .carousel-inner .active+.carousel-item {
+    display: block;
+  }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* right or prev direction */
+  .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+/**************small screen*********/
+@media screen and (max-width: 400px) {
+  .navbar-toggler {
+    margin-right: 50px
+  }
+
+  /*before margin-right:750px; */
+  .navbar-nav .nav-link a {
+    padding-bottom: 5px padding-right:500px margin-bottom:900px
+  }
+
+  .home {
+    background: url("images/pexel.jpg") no-repeat center;
+    width: 160vh. height:0px;
+  }
+
+  /*
+  .home {
+    background: url("images/pexel.jpg") no-repeat center;
+    width: 160vh
+  }*/
+  .home .home-content .text-1 {
+    font-size: 20px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 53px;
+  }
+
+  /*  font-size: 33px;*/
+  .home .home-content .text-3 {
+    font-size: 26px;
+  }
+
+  /*about*/
+  .cv {
+    padding-left: 100px;
+  }
+
+  .pic {
+    padding-left: 90px;
+  }
+
+  .textarea {
+    padding-left: 20px;
+    display: contents;
+  }
+
+  /*education*/
+  .card {
+    margin: 10px;
+  }
+
+  .edu {
+    margin-left: 65px;
+    margin-top: 10px;
+  }
+
+  /*skills*/
+  .card .skill-name {
+    font-size: 19px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .card {
+    margin-bottom: 5px;
+  }
+
+  .total {
+    padding-left: 20px;
+    padding-right: 0px margin-left:30px;
+    display: table-cell;
+    display: contents;
+  }
+
+  .card .skill-name {}
+
+  /*projects*/
+  .pc {
+    margin-left: 0px;
+    height: 200px;
+    width: 253px;
+  }
+
+  .carbtn {
+    height: 14%;
+    top: 40%;
+    width: 38px;
+    background: black;
+  }
+
+  .carousel-indicators {
+    height: 2%;
+  }
+
+  .column {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*contact*/
+  .get {
+    margin-left: 110px;
+  }
+
+  .get-1 {
+    margin-left: 60px;
+  }
+
+  .cont {
+    margin-left: 100px;
+  }
+}
+
+/*END*/
